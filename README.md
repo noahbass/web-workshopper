@@ -14,8 +14,11 @@ _This is an experimental library with little documentation at the moment_
 ## Getting Started
 
 `git clone https://github.com/noahbass/web-workshopper.git`
+
 `cd web-workshopper`
+
 `npm install`
+
 `npm start` and point your browser to [localhost:8080/test](http://localhost:8080/test/)
 
 ## TODO

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Test app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+    </head>
+    <body>
+        <div>
+          <section class="progress">
+            <p>Progress</p>
+          </section>
+        </div>
+
+        <div>
+          <section class="problem">
+            <h2>Problem title</h2>
+
+            <p>
+              Problem description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, doloremque voluptas nesciunt
+              iure explicabo libero blanditiis consequatur facere quidem quia cupiditate vero et illum commodi
+              impedit fuga eaque quibusdam vitae.
+            </p>
+
+            <p>Hint button</p>
+          </section>
+
+          <section class="solution">
+            <!-- Example function - square the value -->
+            <div id="solution-editor">function foo(value) {
+  return value * value;
+}
+foo(2);</div>
+
+            <div>
+              <button id="submit" type="submit">Submit</button>
+            </div>
+
+            <div>
+              <p>Result:</p>
+              <p id="result"></p>
+            </div>
+          </section>
+        </div>
+
+        <script src="../dist/main.js" defer></script>
+    </body>
+</html>
